@@ -10,7 +10,7 @@ module.exports = function(options) {
         });
       }
       else {
-        return spawn( 'open', [ options.projectName] );
+        return spawn( '/Applications/Xcode.app/Contents/MacOS/Xcode', [ options.projectName] );
       }
   }
   else if (options.test) {
