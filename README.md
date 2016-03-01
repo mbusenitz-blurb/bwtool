@@ -1,8 +1,8 @@
 # bwtool
-BookWright Tool   
+BookWright Dev Tool   
 
 #### objective 
-generate, build and run xcode or visual studio projects from BookWright.pro
+generate, build and run BookWright in xcode or visual studio 
 
 #### dependencies 
 requires nodejs and npm
@@ -26,6 +26,7 @@ required only once on install
 
     -h, --help          output usage information
     -V, --version       output the version number
+    -d, --debug         build debug (default)
     -t, --test          build and run test
     -r, --release       build release
     -o, --open          open IDE
